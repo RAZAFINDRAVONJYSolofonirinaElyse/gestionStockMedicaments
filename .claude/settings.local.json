@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\Elyse\\\\Desktop\\\\Gestion_Stock_Medicaments\\\\server\" -Force | ForEach-Object { $_.Name })",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\Elyse\\\\Desktop\\\\Gestion_Stock_Medicaments\\\\server\" -Force -Hidden | ForEach-Object { $_.FullName })",
+      "Bash(git add *)",
+      "Bash(git check-ignore *)",
+      "Bash(git rm *)"
+    ]
+  }
+}
